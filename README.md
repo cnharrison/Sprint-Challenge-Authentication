@@ -70,3 +70,5 @@ Helpful Tip on Testing this Project:
 
 - Add a React client that connects to your API and has pages for `Sign Up`, `Sign In` and showing a list of `Jokes`.
 - Once you have the functionality down, style it!
+
+initial commit 🔓🗝💯😂
