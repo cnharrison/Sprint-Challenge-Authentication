@@ -29,9 +29,20 @@ Implement an User Authentication System in order to access the jokes from the Jo
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 1. What is the purpose of using _sessions_?
+
+so the user doesn't have to send their credentials with every request
+
 1. What does bcrypt do to help us store passwords in a secure manner.
+
+it hashes the password so we never have to store the user's actual passowrd, just a hash of it
+
 1. What does bcrypt do to slow down attackers?
+
+builds salts into its hashes to slow down rainbow table attacks
+
 1. What are the three parts of the JSON Web Token?
+
+header, payload, signature
 
 ## Project Set Up
 
@@ -70,5 +81,3 @@ Helpful Tip on Testing this Project:
 
 - Add a React client that connects to your API and has pages for `Sign Up`, `Sign In` and showing a list of `Jokes`.
 - Once you have the functionality down, style it!
-
-initial commit 🔓🗝💯😂
